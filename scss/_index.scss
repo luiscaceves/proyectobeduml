@@ -1,15 +1,19 @@
 .logo-cardtopolis {
-    height: 120px;
+    height: 70px;
     width: auto;
-
-    &  .top-menu {
-        background-color: #000;
-    }
 }
 
-.menu-logo {
-    display: initial;
-    line-height: 7;
+
+
+.productos-nuevos {
+    text-align: center;
+
+    & h2 {
+        padding: 20px 0 0 0;
+        color: #28a745;
+        font-weight: bold;
+        font-family: 'alegreya';
+    }
 }
 
 .imagenes-carrusel {
@@ -17,6 +21,3 @@ height: 650px;
 width: auto;
 }
 
-.productos-nuevos {
-    align-items: center;
-}
