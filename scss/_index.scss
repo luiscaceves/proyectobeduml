@@ -1,9 +1,45 @@
+.cuerpo {
+    background-color: #343a40;
+}
+
 .logo-cardtopolis {
-    height: 70px;
+    height: 80px;
     width: auto;
+    flex-direction: unset;
+}
+
+.botones-menu {
+    padding-left: 50px;
+    margin-left: 20px;
+
+    & .icono {
+padding-left: 5px;
+padding-right: 5px;
+color:#6c757d;
+font-size: 17px;
+
+        & .dibujo {
+            color: #fff
+        }
+    }
+}
+
+.form-ml {
+    padding-left: 480px;
+
+    & .input-ml {
+        padding-left: 0;
+        padding-right: 0;
+    } 
 }
 
 
+.imagenes-carrusel {
+max-width: 80%;
+max-height: 100%;
+height: 550px;
+width: auto;
+}
 
 .productos-nuevos {
     text-align: center;
@@ -12,12 +48,25 @@
         padding: 20px 0 0 0;
         color: #28a745;
         font-weight: bold;
-        font-family: 'alegreya';
+        font-family: 'Chalkduster';
+        text-align: center;
+
     }
+
+    & div {
+        margin: 10px 10px 10px 20px;
+        padding: 9px;
+        border-radius: 6px;
+        
+    }
+    
 }
 
-.imagenes-carrusel {
-height: 650px;
-width: auto;
+.jumbo-ml {
+    color: #28a745;
+    font-family: 'Chalkduster';
+    height: 600px;
+    width: auto;
+    padding-bottom: 700px;
 }
 

@@ -8,20 +8,27 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Proyecto Marcelo Y Luis</title>
   </head>
-  <body>
+  <body class="cuerpo">
     <!-- menu -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand flex" href="#">
         <img class="logo-cardtopolis" src="./imagenes/logo2.png" alt="logo">
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
+
+      <div class="navbar botones-menu text-green">
+        <a class="active icono" href="#"><i class="dibujo fa fa-fw fa-home"></i> Inicio</a>
+        <a class="icono" href="#"><i class=" dibujo fa fa-fw fa-envelope"></i> Contactanos</a>
+        <a class="icono" href="#"><i class="dibujo fa fa-fw fa-user"></i> Login</a>
+      </div>
     
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -29,27 +36,21 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </ul> -->
+        <form class="form-inline my-2 my-lg-0 form-ml">
+          <input class="form-control mr-sm-2 input-ml" type="search" placeholder="  Search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
     </nav>
+
+   
     <!-- termina menu -->
 
     <!-- inicia carrusel-->
@@ -58,13 +59,13 @@
        
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./imagenes/mj1.jpg" class="d-block w-100" alt="slide-1">
+            <img src="./imagenes/VIR_144827_12117_sabrias_reconocer_a_estas_leyendas_de_la_nba.jpg" class="d-block w-100" alt="slide-1">
           </div>
           <div class="carousel-item">
             <img src="./imagenes/tim-duncan-david-robinson_1vwru9s1fmsec1uvr4fl8190ci.jpg" class="d-block w-100" alt="slide-2">
           </div>
           <div class="carousel-item">
-            <img src="./imagenes/150805191407-hall-of-fame-dream-team-feature-00000701.1280x720.jpg " class="d-block w-100" alt="slide-3">
+            <img src="./imagenes/mj1.jpg" class="d-block w-100" alt="slide-3">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -75,21 +76,73 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-      </div>
     </section>
     <!-- termina carrusel-->
 
     <!-- inicia seccion productos nuevos -->
-    <section class="productos-nuevos">
-    <h2>Productos Nuevos</h2>
+    <div class="productos-nuevos">
+      <h2>Productos Nuevos</h2>
+    </div>
+    <section class="productos-nuevos flex row">
+    
+    <div class="card bg-secondary column text-white" style="width: 18rem;">
+      <img src="./imagenes/card1.jpeg" class="card-img-top" alt="mj1">
+      <div class="card-body">
+        <h5 class="card-title">Michael Jordan</h5>
+        <a href="#" class="btn btn-success">Buy me</a>
+      </div>
+    </div>
+
+ 
+    <div class="card bg-secondary column text-white" style="width: 18rem;">
+      <img src="./imagenes/card5.jpg" class="card-img-top" alt="mj1">
+      <div class="card-body">
+        <h5 class="card-title">David Robinson</h5>
+        <a href="#" class="btn btn-success">Buy me</a>
+      </div>
+    </div>
+
+    <div class="card bg-secondary column text-white" style="width: 18rem;">
+      <img src="./imagenes/card4.jpeg" class="card-img-top" alt="mj1">
+      <div class="card-body">
+        <h5 class="card-title">David Robinson</h5>
+        <a href="#" class="btn btn-success">Buy me</a>
+      </div>
+    </div>
+
+     <div class="card bg-secondary column text-white" style="width: 18rem;">
+      <img src="./imagenes/card2.jpeg" class="card-img-top" alt="mj1">
+      <div class="card-body">
+        <h5 class="card-title">Michael Jordan</h5>
+        <a href="#" class="btn btn-success">Buy me</a>
+      </div>
+    </div>
   </section>
   <!-- termina productos nuevos -->
+ 
+  <!-- inicia promocion -->
+  <section>
+    <div class="jumbotron jumbotron-fluid jumbo-ml bg-dark">
+      <div class="container">
+        <img src="./imagenes/collage.jpg" alt="collage">
+        <h1 class="display-5">Productos en Promoción </h1>
+        <p class="lead">Todo en un solo lugar, los mejores y mas exclusivos coleccionables .</p>
+      </div>
+    </div>
+</section>
+
+<section>
+  <div class="card bg-dark text-white jumbo-ml">
+    <img src="./imagenes/15855738288326.png" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+</section>
+  <!-- termina promocion -->
+
+  <!--  -->
 
 
     <!-- Optional JavaScript -->
