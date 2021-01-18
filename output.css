@@ -1,5 +1,5 @@
 .cuerpo {
-  background-color: #343a40;
+  background-color: black;
 }
 
 .logo-cardtopolis {
@@ -8,26 +8,26 @@
   flex-direction: unset;
 }
 
+.bg-menu {
+  background-color: #ebd077;
+}
+
 .botones-menu {
-  padding-left: 50px;
-  margin-left: 20px;
+  padding-left: 20px;
 }
 .botones-menu .icono {
   padding-left: 5px;
   padding-right: 5px;
-  color: #6c757d;
+  color: #ca5f07;
   font-size: 17px;
 }
 .botones-menu .icono .dibujo {
   color: #fff;
 }
 
-.form-ml {
-  padding-left: 480px;
-}
-.form-ml .input-ml {
-  padding-left: 0;
-  padding-right: 0;
+.input-ml {
+  padding-left: -10;
+  padding-right: 20px;
 }
 
 .imagenes-carrusel {
@@ -42,7 +42,7 @@
 }
 .productos-nuevos h2 {
   padding: 20px 0 0 0;
-  color: #28a745;
+  color: #ca5f07;
   font-weight: bold;
   font-family: "Chalkduster";
   text-align: center;
@@ -54,11 +54,18 @@
 }
 
 .jumbo-ml {
-  color: #28a745;
+  color: #ca5f07;
+  background-color: black;
   font-family: "Chalkduster";
   height: 600px;
   width: auto;
   padding-bottom: 700px;
+}
+
+.pie-pagina {
+  height: 100%;
+  width: auto;
+  background-color: black;
 }
 
 /*# sourceMappingURL=output.css.map */

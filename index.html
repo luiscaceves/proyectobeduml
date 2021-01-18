@@ -9,45 +9,35 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
     <title>Proyecto Marcelo Y Luis</title>
   </head>
   <body class="cuerpo">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="./videos/intro.mp4" allowfullscreen autoplay loop muted></iframe>
+    </div>
     <!-- menu -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
       <a class="navbar-brand flex" href="#">
-        <img class="logo-cardtopolis" src="./imagenes/logo2.png" alt="logo">
+        <img class="logo-cardtopolis" src="./imagenes/logo4.png" alt="logo">
       </a>
-      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
+  
+      <div class="flex">
+        <div class="navbar botones-menu text-color row-cols-1">
+      <a class="active icono column" href="#"><i class="dibujo fa fa-fw fa-home"></i> Inicio</a>
+      <a class="icono column" href="#"><i class=" dibujo fa fa-fw fa-envelope"></i> Contacto</a>
+      <a class="icono column" href="#"><i class="dibujo fa fa-fw fa-user"></i> Login</a>
+      </div>
+    </div>
 
-      <div class="navbar botones-menu text-green">
-        <a class="active icono" href="#"><i class="dibujo fa fa-fw fa-home"></i> Inicio</a>
-        <a class="icono" href="#"><i class=" dibujo fa fa-fw fa-envelope"></i> Contactanos</a>
-        <a class="icono" href="#"><i class="dibujo fa fa-fw fa-user"></i> Login</a>
-      </div>
-    
-      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul> -->
-        <form class="form-inline my-2 my-lg-0 form-ml">
-          <input class="form-control mr-sm-2 input-ml" type="search" placeholder="  Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
+        <div class="input-group mb-1 input-ml">
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+          <div class="input-group-prepend">
+            <button class=" btn-danger" id="basic-addon1">Search</button>
+          </div>
+        </div>
+      
     </nav>
 
    
@@ -85,36 +75,36 @@
     </div>
     <section class="productos-nuevos flex row">
     
-    <div class="card bg-secondary column text-white" style="width: 18rem;">
+    <div class="card bg-dark column text-white" style="width: 18rem;">
       <img src="./imagenes/card1.jpeg" class="card-img-top" alt="mj1">
       <div class="card-body">
         <h5 class="card-title">Michael Jordan</h5>
-        <a href="#" class="btn btn-success">Buy me</a>
+        <a href="#" class="btn btn-warning">Buy me</a>
       </div>
     </div>
 
  
-    <div class="card bg-secondary column text-white" style="width: 18rem;">
+    <div class="card bg-dark column text-white" style="width: 18rem;">
       <img src="./imagenes/card5.jpg" class="card-img-top" alt="mj1">
       <div class="card-body">
         <h5 class="card-title">David Robinson</h5>
-        <a href="#" class="btn btn-success">Buy me</a>
+        <a href="#" class="btn btn-warning">Buy me</a>
       </div>
     </div>
 
-    <div class="card bg-secondary column text-white" style="width: 18rem;">
+    <div class="card bg-dark column text-white" style="width: 18rem;">
       <img src="./imagenes/card4.jpeg" class="card-img-top" alt="mj1">
       <div class="card-body">
         <h5 class="card-title">David Robinson</h5>
-        <a href="#" class="btn btn-success">Buy me</a>
+        <a href="#" class="btn btn-warning">Buy me</a>
       </div>
     </div>
 
-     <div class="card bg-secondary column text-white" style="width: 18rem;">
+     <div class="card bg-dark column text-white" style="width: 18rem;">
       <img src="./imagenes/card2.jpeg" class="card-img-top" alt="mj1">
       <div class="card-body">
         <h5 class="card-title">Michael Jordan</h5>
-        <a href="#" class="btn btn-success">Buy me</a>
+        <a href="#" class="btn btn-warning">Buy me</a>
       </div>
     </div>
   </section>
@@ -122,9 +112,10 @@
  
   <!-- inicia promocion -->
   <section>
-    <div class="jumbotron jumbotron-fluid jumbo-ml bg-dark">
+    <div class="jumbotron jumbotron-fluid jumbo-ml ">
       <div class="container">
         <img src="./imagenes/collage.jpg" alt="collage">
+        <br>
         <h1 class="display-5">Productos en Promoción </h1>
         <p class="lead">Todo en un solo lugar, los mejores y mas exclusivos coleccionables .</p>
       </div>
@@ -136,13 +127,18 @@
     <img src="./imagenes/15855738288326.png" class="card-img" alt="...">
     <div class="card-img-overlay">
       <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
     </div>
   </div>
 </section>
   <!-- termina promocion -->
 
-  <!--  -->
+  <!-- inicia footer -->
+<footer class="fex">
+
+
+</footer>
+  <!-- termina footer -->
 
 
     <!-- Optional JavaScript -->
