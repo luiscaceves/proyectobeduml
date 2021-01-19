@@ -1,3 +1,5 @@
+
+
 .cuerpo {
     background-color: black;
 }
@@ -72,8 +74,28 @@ width: auto;
     padding-bottom: 700px;
 }
 
-.pie-pagina {
-    height: 100%;
-    width: auto;
-    background-color: black;
+footer {
+	background-color:#1A1A1A;
+	height: 60%;
+  color: white;
+  padding: 35px;
+}
+
+.main1 { 
+  display:flex;
+  margin:50px auto;
+}
+
+a img:hover {
+    color: #fff;
+}
+
+.redes-footer {
+     width: 100%;
+     height: auto;
+
+     & img {
+         width: 10%;
+         height: auto;
+     }
 }
