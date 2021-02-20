@@ -9,40 +9,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    
-
-    <title>Proyecto Marcelo Y Luis</title>
-  </head>
-  <body class="cuerpo">
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="./videos/intro.mp4" allowfullscreen autoplay loop muted></iframe>
-    </div>
-    <!-- menu -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
-      <a class="navbar-brand flex" href="#">
-        <img class="logo-cardtopolis" src="./imagenes/logo4.png" alt="logo">
-      </a>
   
-      <div class="flex">
-        <div class="navbar botones-menu text-color row-cols-1">
-      <a class="active icono column" href="#"><i class="dibujo fa fa-fw fa-home"></i> Inicio</a>
-      <a class="icono column" href="#"><i class=" dibujo fa fa-fw fa-envelope"></i> Contacto</a>
-      <a class="icono column" href="#"><i class="dibujo fa fa-fw fa-user"></i> Login</a>
-      </div>
-    </div>
-
-        <div class="input-group mb-1 input-ml">
-          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-          <div class="input-group-prepend">
-            <button class=" btn-danger" id="basic-addon1">Search</button>
-          </div>
-        </div>
-      
-    </nav>
-
-   
-    <!-- termina menu -->
+  <title>Collectors trade</title>
+  </head>
+  
+  <script src="func.js"></script>
+  <script src="main.js"></script>
+  
+  <body class="cuerpo">
 
     <!-- inicia carrusel-->
     <section>
@@ -50,13 +24,19 @@
        
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./imagenes/VIR_144827_12117_sabrias_reconocer_a_estas_leyendas_de_la_nba.jpg" class="d-block w-100" alt="slide-1">
+            <img src="./imagenes/kobe.jpeg" class="d-block w-100" alt="slide-2">
           </div>
           <div class="carousel-item">
-            <img src="./imagenes/tim-duncan-david-robinson_1vwru9s1fmsec1uvr4fl8190ci.jpg" class="d-block w-100" alt="slide-2">
+            <img src="./imagenes/perfume.jpg" class="d-block w-100" alt="slide-3">
           </div>
           <div class="carousel-item">
-            <img src="./imagenes/mj1.jpg" class="d-block w-100" alt="slide-3">
+            <img src="./imagenes/funko_pop_collection.jpg" class="d-block w-100" alt="slide-4">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/coins.jpg" class="d-block w-100" alt="slide-5">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/mj1.jpg" class="d-block w-100" alt="slide-5">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -69,6 +49,34 @@
         </a>
     </section>
     <!-- termina carrusel-->
+
+    <!-- menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning navbar sticky-top navbar-light bg-light">
+      <a class="navbar-brand flex" href="#">
+        <img class="logo-cardtopolis" src="./imagenes/logo4.png" alt="logo">
+      </a>
+  
+      <div class="flex">
+        <div class="navbar botones-menu text-color row-cols-1">
+      <a class="active icono column" href="#"><i class="dibujo fa fa-fw fa-home"></i> Sign in</a>
+      <a class="icono column" href="#"><i class="dibujo fa fa-fw fa-user"></i> Sign up</a>
+      </div>
+    </div>
+
+    
+        <div class="input-group mb-1 input-ml">
+          <input type="text" class="form-control" id="busquedageneral" placeholder="Busqueda de articulos" aria-label="Username" aria-describedby="basic-addon1">
+          <div class="input-group-prepend">
+            <button class=" btn-danger" id="basic-addon1" onclick="busqueda()">Search</button>
+          </div>
+        </div>
+      
+    </nav>
+
+   
+    <!-- termina menu -->
+
+    
 
     <!-- inicia seccion productos nuevos -->
     <div class="productos-nuevos">
