@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+
+.custom-select {
+    width: 400px;
+}
+
+.custom-file {
+    width: 300px;
+}
+
+.autoinputs {
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+    align-content: center;
+}
