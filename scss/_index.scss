@@ -11,7 +11,7 @@
 }
 
 .bg-menu {
-    background-color: rgb(235, 208, 119);
+    background-color: rgb(0, 0, 0);
 }
 
 .botones-menu {
@@ -38,14 +38,35 @@ font-size: 17px;
 } 
 
 .imagenes-carrusel {
-max-width: 80%;
-max-height: 100%;
-height: 550px;
-width: auto;
+    width: 500px; height: 700px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imagen-efecto {
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 10px 10px #ec731e;
+    -webkit-box-shadow: 0px 0px 10px 10px #ec731e;
+}
+
+.hola-img:hover {
+    border-radius:20%;
+    -webkit-border-radius:20%;
+    box-shadow: 0px 0px 10px 10px #ec731e;
+    -webkit-box-shadow: 0px 0px 10px 10px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.row-ml {
+    display: flex;
+    align-items: center;
 }
 
 .productos-nuevos {
     text-align: center;
+    
 
     & h2 {
         padding: 20px 0 0 0;
@@ -57,12 +78,20 @@ width: auto;
     }
 
     & div {
+        
         margin: 10px 10px 10px 20px;
-        padding: 9px;
+        padding: 29px;
         border-radius: 6px;
+        margin-left: auto;
         
     }
     
+}
+
+.produc-promo {
+    width: 100%; height: 700px;
+    max-width: 100%;
+    max-height: 100%; 
 }
 
 .jumbo-ml {
