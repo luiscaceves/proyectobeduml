@@ -12,8 +12,17 @@
   background-color: black;
 }
 
+.boton-war {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+  border-radius: 5px;
+  margin-left: -4px;
+}
+
 .botones-menu {
   padding-left: 20px;
+  text-align: center;
 }
 .botones-menu .icono {
   padding-left: 5px;
@@ -26,8 +35,9 @@
 }
 
 .input-ml {
-  padding-left: -10;
+  padding-left: 30px;
   padding-right: 20px;
+  align-items: center;
 }
 
 .imagenes-carrusel {

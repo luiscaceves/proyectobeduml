@@ -11,10 +11,33 @@
   .bg-menu {
     background-color: black;
   }
+
+  .boton-war {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 5px;
+    margin-left: -4px;
+}
+
+  .input-menu {
+    width: 15%;
+    justify-content: space-between;
+    margin-left: 550px;
+  }
   
   .botones-menu {
-    padding-left: 20px;
+    padding-left: 5px;
+    padding-right: 16px;
+    align-items: center;
+      display: inline-block;
+      font: font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
   }
+
   .botones-menu .icono {
     padding-left: 5px;
     padding-right: 5px;
@@ -38,18 +61,28 @@
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
 }
+
+.carta img {
+  width: 10px;
+  height: auto;
+}
+
+.bg-carta {
+  background-color: black;
+  color: white;
+}
+
+.bg-carta h5{
+  text-align: center;
+  text-decoration: bold;
+}
   
   .input-ml {
     padding-left: -10;
     padding-right: 20px;
   }
   
-  .imagenes-carrusel {
-    width: 500px;
-    height: 700px;
-    max-width: 100%;
-    max-height: 100%;
-  }
+  
   
   .imagen-efecto {
     border-radius: 50%;
