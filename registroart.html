@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="registroart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>New item</title>
+</head>
+<script src="func.js"></script>
+<body>
+
+   <!-- menu -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-menu navbar sticky-top">
+    <a class="navbar-brand flex" href="#">
+      <img class="logo-cardtopolis" src="./imagenes/logo4.png" alt="logo">
+    </a>
+
+    <div class="flex">
+      <div class="navbar botones-menu text-color row-cols-4">
+      <a class="active icono column" href="./index.html"><i class="fa fa-rebel" aria-hidden="true"></i> Home</a>
+      <a class="icono column" href="#"><i class="fa fa-empire" aria-hidden="true"></i>Sign In</a>
+      <a class="icono column" href="#"><i class="fa fa-first-order" aria-hidden="true"></i>SignUp</a>
+      <a class="icono column" href="#"><i class="fa fa-gamepad" aria-hidden="true"></i>SignUp</a>
+      </div>
+    </div>
+
+  
+      <div class="input-group mb-1 input-menu">
+        <input type="text" class="form-control" id="busquedageneral" placeholder="Busqueda de articulos" aria-label="Username" aria-describedby="basic-addon1">
+        <div class="input-group-prepend">
+          <button class=" btn-warning boton-war" id="basic-addon1" onclick="busqueda()">Search</button>
+        </div>
+      </div>
+    
+  </nav>
+
+        <div class="form-group">
+          <select onchange = formatipo() class="custom-select" required>
+            <option value="">Select items type:</option>
+            <option value="1">Cards</option>
+            <option value="2">Jerseys</option>
+            <option value="3">Coins</option>
+            <option value="4">Perfumes</option>
+          </select>
+        </div>
+        <section id="registro">
+          <section class="artinput">
+            <!--Aqui se generan los inputs de registro-->
+          </section>
+        <section id="registroimg">
+          <div class="custom-file">
+            <input type="file" id="files" name="files[]" multiple />
+            <output id="list"></output>
+            
+          </div> 
+          <button>Save</button> 
+          <section class="registroimg">
+            <!--Aqui se generan los inputs de registro-->
+          </section>
+        </section>
+       
+      
+        </section>
+        
+    <script src="registroart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

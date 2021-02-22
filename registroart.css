@@ -1,0 +1,205 @@
+body {
+    background-color: black;
+}
+
+.cuerpo {
+    background-color: black;
+  }
+  
+  .logo-cardtopolis {
+    height: 80px;
+    width: auto;
+    flex-direction: unset;
+  }
+  
+  .bg-menu {
+    background-color: black;
+  }
+
+  .boton-war {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 5px;
+    margin-left: -4px;
+}
+
+  .input-menu {
+    width: 15%;
+    justify-content: space-between;
+    margin-left: 550px;
+  }
+  
+  .botones-menu {
+    padding-left: 5px;
+    padding-right: 16px;
+    align-items: center;
+      display: inline-block;
+      font: font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+
+  .botones-menu .icono {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #ca5f07;
+    font-size: 17px;
+  }
+  .botones-menu .icono .dibujo {
+    color: #fff;
+  }
+
+  .carta {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(49, 42, 25);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.carta img {
+  width: 10px;
+  height: auto;
+}
+
+.bg-carta {
+  background-color: black;
+  color: white;
+}
+
+.bg-carta h5{
+  text-align: center;
+  text-decoration: bold;
+}
+  
+  .input-ml {
+    padding-left: -10;
+    padding-right: 20px;
+  }
+  
+  
+  
+  .imagen-efecto {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px #ec731e;
+    -webkit-box-shadow: 0px 0px 10px 10px #ec731e;
+  }
+  
+  .hola-img:hover {
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    box-shadow: 0px 0px 10px 10px #ec731e;
+    -webkit-box-shadow: 0px 0px 10px 10px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+  
+  .row-ml {
+    width: 120px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .perfil {
+    text-align: left;
+
+  }
+  .perfil h2 {
+    padding: 20px 0 0 0;
+    color: #ca5f07;
+    font-weight: bold;
+    font-family: "Chalkduster";
+    text-align: center;
+  }
+  .perfil div {
+    margin: 10px
+    padding: 39px;
+    border-radius: 6px;
+    
+  }
+  
+  .produc-promo {
+    width: 100%;
+    height: 700px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .jumbo-ml {
+    color: #ca5f07;
+    background-color: black;
+    font-family: "Chalkduster";
+    height: 600px;
+    width: auto;
+    padding-bottom: 700px;
+  }
+  
+  footer {
+    background-color: #1A1A1A;
+    height: 60%;
+    color: white;
+    padding: 35px;
+  }
+  
+  .main1 {
+    display: flex;
+    margin: 50px auto;
+  }
+  
+  a img:hover {
+    color: #fff;
+  }
+  
+  .redes-footer {
+    width: 100%;
+    height: auto;
+  }
+  .redes-footer img {
+    width: 10%;
+    height: auto;
+  }
+.custom-select {
+    width: 400px;
+}
+
+.custom-file {
+    width: 300px;
+}
+
+.autoinputs {
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+#registro{
+    display: flex;
+}
+
+.registroimg {
+   
+}
+
+.artinput{
+    display: grid;
+    grid-column: auto;
+    width: 50%;
+}
+
+.thumb{
+    height: 100px;
+    border: 1px solid #000;
+    margin: 10px 5px;
+}
