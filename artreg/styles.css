@@ -16,3 +16,17 @@ body {
     align-items: center;
     align-content: center;
 }
+
+#registro{
+    display: flex;
+}
+
+.registroimg {
+   
+}
+
+.artinput{
+    display: grid;
+    grid-column: auto;
+    width: 50%;
+}

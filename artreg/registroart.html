@@ -20,15 +20,23 @@
             <option value="4">Perfumes</option>
           </select>
         </div>
-        <section class="artinput">
-
+        <section id="registro">
+          <section class="artinput">
+            <!--Aqui se generan los inputs de registro-->
+          </section>
+        <section id="registroimg">
+          <div class="custom-file">
+            <input onchange = agregarImagen() type="file" class="custom-file-input" id="validatedCustomFiel" required>
+            <label class="custom-file-label" for="validatedCustomFile">Picture</label>
+            <div class="invalid-feedback">Example invalid custom file feedback</div>
+            
+          </div> 
+          <button>Save</button> 
         </section>
-        <div class="custom-file">
-          <input onchange = agregarImagen() type="file" class="custom-file-input" id="validatedCustomFiel" required>
-          <label class="custom-file-label" for="validatedCustomFile">Picture</label>
-          <div class="invalid-feedback">Example invalid custom file feedback</div>
-        </div>
-      </form>
+       
+      
+        </section>
+        
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
