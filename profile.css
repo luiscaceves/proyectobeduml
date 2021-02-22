@@ -1,0 +1,137 @@
+.cuerpo {
+    background-color: black;
+  }
+  
+  .logo-cardtopolis {
+    height: 80px;
+    width: auto;
+    flex-direction: unset;
+  }
+  
+  .bg-menu {
+    background-color: black;
+  }
+  
+  .botones-menu {
+    padding-left: 20px;
+  }
+  .botones-menu .icono {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #ca5f07;
+    font-size: 17px;
+  }
+  .botones-menu .icono .dibujo {
+    color: #fff;
+  }
+
+  .carta {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(49, 42, 25);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+  
+  .input-ml {
+    padding-left: -10;
+    padding-right: 20px;
+  }
+  
+  .imagenes-carrusel {
+    width: 500px;
+    height: 700px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .imagen-efecto {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px #ec731e;
+    -webkit-box-shadow: 0px 0px 10px 10px #ec731e;
+  }
+  
+  .hola-img:hover {
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    box-shadow: 0px 0px 10px 10px #ec731e;
+    -webkit-box-shadow: 0px 0px 10px 10px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+  
+  .row-ml {
+    width: 120px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .perfil {
+    text-align: left;
+
+  }
+  .perfil h2 {
+    padding: 20px 0 0 0;
+    color: #ca5f07;
+    font-weight: bold;
+    font-family: "Chalkduster";
+    text-align: center;
+  }
+  .perfil div {
+    margin: 10px
+    padding: 39px;
+    border-radius: 6px;
+    
+  }
+  
+  .produc-promo {
+    width: 100%;
+    height: 700px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .jumbo-ml {
+    color: #ca5f07;
+    background-color: black;
+    font-family: "Chalkduster";
+    height: 600px;
+    width: auto;
+    padding-bottom: 700px;
+  }
+  
+  footer {
+    background-color: #1A1A1A;
+    height: 60%;
+    color: white;
+    padding: 35px;
+  }
+  
+  .main1 {
+    display: flex;
+    margin: 50px auto;
+  }
+  
+  a img:hover {
+    color: #fff;
+  }
+  
+  .redes-footer {
+    width: 100%;
+    height: auto;
+  }
+  .redes-footer img {
+    width: 10%;
+    height: auto;
+  }
+  
+  /*# sourceMappingURL=output.css.map */
+  
