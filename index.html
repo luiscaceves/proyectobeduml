@@ -9,6 +9,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
   
   <title>Collectors trade</title>
   </head>
@@ -24,7 +42,7 @@
        
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./imagenes/carrusel2.png" class="d-block w-100 imagenes-carrusel" alt="slide-2">
+            <img src="./imagenes/logobig.png" class="d-block w-100 imagenes-carrusel" alt="slide-2">
           </div>
           <div class="carousel-item">
             <img src="./imagenes/kobe.jpeg" class="d-block w-100 imagenes-carrusel" alt="slide-3">
@@ -88,9 +106,9 @@
             <button data-dismiss="modal" class="close">&times;</button>
             <h4>Login</h4>
             <form>
-              <input type="text" name="username" class="username form-control" placeholder="Username"/>
-              <input type="password" name="password" class="password form-control" placeholder="password"/>
-              <input class="btn login" type="submit" value="Login" />
+              <input type="text" id="username" name="username" class="username form-control" placeholder="Username"/>
+              <input type="password" id="password" name="password" class="password form-control" placeholder="password"/>
+              <input class="btn login" id= "loginbuton" onclick="login()" type="submit" value="Login" />
             </form>
           </div>
         </div>
@@ -152,7 +170,7 @@
         <br>
         <br>
         <h1 class="display-5"></h1>
-        <p class="lead">Todo en un solo lugar, los mejores y mas exclusivos coleccionables .</p>
+        
       </div>
     </div>
 </section>
