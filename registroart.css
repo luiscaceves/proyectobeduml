@@ -175,6 +175,12 @@ body {
 
 .custom-file {
     width: 300px;
+    text-align: center;
+    display: inline-flex;
+}
+
+.custom-boton {
+  border-radius: 5px;
 }
 
 .autoinputs {
