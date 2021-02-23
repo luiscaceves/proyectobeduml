@@ -40,6 +40,17 @@ font-size: 17px;
     }
 }
 
+.input-home {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 65%;
+}
+
 .input-ml {
     
     padding-left: 30px;
