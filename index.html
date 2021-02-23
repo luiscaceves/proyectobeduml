@@ -59,7 +59,7 @@
       <div class="flex">
         <div class="navbar botones-menu text-color row-cols-5">
         <a class="active icono column" href="./index.html"><i class="fa fa-rebel" aria-hidden="true"></i> Home</a>
-        <a class="icono column" href="./profile.html"><i class="fa fa-empire" aria-hidden="true"></i>SignIn</a>
+        <a class="icono column" href="./profile.html" data-target="#login" data-toggle="modal"><i class="fa fa-empire" aria-hidden="true"></i>SignIn</a>
         <a class="icono column" href="#"><i class="fa fa-first-order" aria-hidden="true"></i>SignUp</a>
         <a class="icono column" href="#"><i class="fa fa-gamepad" aria-hidden="true"></i>JoinUs</a>
         
@@ -79,6 +79,23 @@
    
     <!-- termina menu -->
 
+    <!-- login modal -->
+    <div id="login" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        
+        <div class="modal-content">
+          <div class="modal-body">
+            <button data-dismiss="modal" class="close">&times;</button>
+            <h4>Login</h4>
+            <form>
+              <input type="text" name="username" class="username form-control" placeholder="Username"/>
+              <input type="password" name="password" class="password form-control" placeholder="password"/>
+              <input class="btn login" type="submit" value="Login" />
+            </form>
+          </div>
+        </div>
+      </div>  
+    </div>
     
 
     <!-- inicia seccion productos nuevos -->
