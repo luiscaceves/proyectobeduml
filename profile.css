@@ -1,13 +1,13 @@
 .cuerpo {
     background-color: black;
   }
-  
+
   .logo-cardtopolis {
     height: 80px;
     width: auto;
     flex-direction: unset;
   }
-  
+
   .bg-menu {
     background-color: black;
   }
@@ -25,7 +25,7 @@
     justify-content: space-between;
     margin-left: 550px;
   }
-  
+
   .botones-menu {
     padding-left: 5px;
     padding-right: 16px;

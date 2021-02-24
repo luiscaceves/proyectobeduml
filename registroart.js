@@ -15,7 +15,7 @@ function generainputs(tipo){
         inptext.innerHTML = `${input}: `;
         contenedor.appendChild(inptext);
         contenedor.appendChild(inp);
-        
+
     });
 }
 
@@ -48,25 +48,25 @@ function agregarImagen(evt){
     }
   }
 
-  
+
 
 
 function formatipo(){
-    let tipo = Number(document.querySelector('.custom-select').value);
+    let tipo = document.querySelector('.custom-select').value;
     switch(tipo) {
-        case 1:
+        case 'Card':
             generainputs(regcard);
             break;
 
-        case 2:
+        case 'Jersey':
             generainputs(regjersey);
             break;
 
-        case 3:
+        case 'Coin':
             generainputs(regcoin);
             break;
 
-        case 4:
+        case 'Perfume':
             generainputs(regperfume);
             break;
 

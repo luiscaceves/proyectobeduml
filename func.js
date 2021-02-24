@@ -1,7 +1,6 @@
 function busqueda (){
     buscar = document.querySelector('#busquedageneral').value;
     console.log(`estoy buscando ${buscar}`);
-
 }
 
 function login(){
@@ -13,4 +12,8 @@ function login(){
     else {
         alert('Usuario o Password incorrecto.')
     }
+}
+
+function guardararticulo(){
+    
 }

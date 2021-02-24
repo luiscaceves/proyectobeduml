@@ -27,23 +27,23 @@
       </div>
     </div>
 
-  
+
       <div class="input-group mb-1 input-menu">
         <input type="text" class="form-control" id="busquedageneral" placeholder="Busqueda de articulos" aria-label="Username" aria-describedby="basic-addon1">
         <div class="input-group-prepend">
           <button class=" btn-warning boton-war" id="basic-addon1" onclick="busqueda()">Search</button>
         </div>
       </div>
-    
+
   </nav>
 
         <div class="form-group">
-          <select onchange = formatipo() class="custom-select" required>
+          <select onchange = formatipo() class="custom-select" id="inputtype" required>
             <option value="">Select items type:</option>
-            <option value="1">Cards</option>
-            <option value="2">Jerseys</option>
-            <option value="3">Coins</option>
-            <option value="4">Perfumes</option>
+            <option value="Card">Cards</option>
+            <option value="Jersey">Jerseys</option>
+            <option value="Coin">Coins</option>
+            <option value="Perfume">Perfumes</option>
           </select>
         </div>
         <section id="registro">
@@ -54,16 +54,14 @@
           <div class="custom-file">
             <input type="file" id="files" name="files[]" multiple />
             <output id="list"></output>
-            
-          </div> 
-         
+          </div>
+
           <section class="registroimg">
             <!--Aqui se generan los inputs de registro-->
           </section>
         </section>
 
-            
-      
+
         </section>
     <button class="btn-warning custom-boton" onclick="guardarArt()">Save</button>
 
